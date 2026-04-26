@@ -24,7 +24,7 @@
 ```
 TELEGRAM_TOKEN=הטוקן שלך
 ANTHROPIC_API_KEY=המפתח שלך
-SHIMI_CHAT_ID=1065288478
+SHIMI_CHAT_ID=####
 ```
 
 ### שלב 4 — הוסף Procfile
@@ -44,7 +44,7 @@ Railway יבנה ויפעיל את הבוט אוטומטית.
 pip install -r requirements.txt
 export TELEGRAM_TOKEN="הטוקן שלך"
 export ANTHROPIC_API_KEY="המפתח שלך"
-export SHIMI_CHAT_ID="1065288478"
+export SHIMI_CHAT_ID="=####"
 python bot.py
 ```
 
